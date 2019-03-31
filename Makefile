@@ -15,14 +15,15 @@ SRC = ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c \
 	ft_strnew.c ft_strnstr.c ft_strrchr.c ft_strsplit.c ft_strstr.c \
 	ft_strsub.c ft_strtrim.c ft_tolower.c ft_toupper.c ft_strcpy.c \
 	ft_lstnew.c ft_lstdelone.c ft_lstdel.c ft_lstadd.c ft_lstiter.c \
-	ft_lstmap.c ft_print_word_table.c ft_strcut.c ft_strndup.c
+	ft_lstmap.c ft_print_word_table.c ft_strcut.c ft_strndup.c ft_rgb_to_int.c \
+	ft_tablen.c ft_tabc_del.c get_next_line.c
 
 OBJ=$(SRC:.c=.o)
 
 all : $(NAME)
 
 $(NAME):
-	@gcc $(FLAG) -c $(SRC) -I includes/
+	@gcc $(FLAG) -c $(SRC) -I includes/ -g
 	@ar rc $(NAME) $(OBJ)
 	@ranlib $(NAME)
 	@echo "\tlibft made"

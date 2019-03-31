@@ -1,21 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcut.c                                        :+:      :+:    :+:   */
+/*   ft_tabc_del.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: larachti <larachti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/01/23 17:00:46 by larachti          #+#    #+#             */
-/*   Updated: 2018/01/29 16:17:54 by larachti         ###   ########.fr       */
+/*   Created: 2018/04/04 12:39:45 by larachti          #+#    #+#             */
+/*   Updated: 2018/04/04 14:19:40 by larachti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <strings.h>
 
-char		*ft_strcut(char *s, size_t len)
+void	ft_tabc_del(char **tabc)
 {
-	if (len > ft_strlen(s))
-		return (NULL);
-	return (ft_strdup(&s[len]));
+	size_t	i;
+
+	i = 0;
+	while (tabc[i])
+		free(tabc[i++]);
+	free(tabc);
 }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: larachti <larachti@student.42.fr>          +#+  +:+       +#+        */
+/*   By: anonymous <anonymous@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/11/13 20:31:17 by larachti          #+#    #+#             */
-/*   Updated: 2018/01/24 15:45:10 by larachti         ###   ########.fr       */
+/*   Created: 2019/03/28 01:39:13 by anonymous         #+#    #+#             */
+/*   Updated: 2019/03/31 17:50:50 by anonymous        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 # include <sys/types.h>
 # include <sys/uio.h>
 # include <fcntl.h>
+# include "get_next_line.h"
 
 typedef struct	s_list
 {
@@ -41,7 +42,10 @@ char			*ft_strchr(const char *s, int c);
 char			*ft_strrchr(const char *s, int c);
 char			*ft_strstr(const char *haystack, const char *needle);
 char			*ft_strnstr(const char *haystack, const char *needle,
-	size_t len);
+				size_t len);
+int				ft_rgba_to_int(unsigned char r, unsigned char g,
+				unsigned char b, unsigned char a);
+
 int				ft_strcmp(const char *s1, const char *s2);
 int				ft_strncmp(const char *s1, const char *s2, size_t n);
 int				ft_atoi(const char *str);
@@ -69,6 +73,7 @@ char			*ft_strjoin(char const *s1, char const *s2);
 char			*ft_strtrim(char const *s);
 char			**ft_strsplit(char const *s, char c);
 char			*ft_itoa(int n);
+char			*ft_itoa_base(int value, int base);
 void			ft_putchar(char c);
 void			ft_putstr(char const *s);
 void			ft_putendl(char const *s);
@@ -86,6 +91,9 @@ void			ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 t_list			*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 
 void			ft_print_word_table(char **table);
+void			ft_tabc_del(char **tabc);
+size_t			ft_tablen(char **tab);
+
 char			*ft_strcut(char *s, size_t len);
 char			*ft_strndup(const char *s, size_t len);
 

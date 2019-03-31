@@ -1,21 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcut.c                                        :+:      :+:    :+:   */
+/*   ft_rgb_to_int.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: larachti <larachti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/01/23 17:00:46 by larachti          #+#    #+#             */
-/*   Updated: 2018/01/29 16:17:54 by larachti         ###   ########.fr       */
+/*   Created: 2018/03/22 13:01:50 by larachti          #+#    #+#             */
+/*   Updated: 2018/03/30 14:40:40 by larachti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <strings.h>
 
-char		*ft_strcut(char *s, size_t len)
+int		ft_rgba_to_int(unsigned char r, unsigned char g,
+	unsigned char b, unsigned char a)
 {
-	if (len > ft_strlen(s))
-		return (NULL);
-	return (ft_strdup(&s[len]));
+	return (((a & 0xFF) << 24) + ((r & 0xFF) << 16) +
+		((g & 0xFF) << 8) + (b & 0xFF));
 }

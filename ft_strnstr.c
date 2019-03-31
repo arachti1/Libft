@@ -6,7 +6,7 @@
 /*   By: larachti <larachti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/13 17:49:21 by larachti          #+#    #+#             */
-/*   Updated: 2017/11/16 09:59:24 by larachti         ###   ########.fr       */
+/*   Updated: 2018/04/10 16:07:34 by larachti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@
 
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 {
-	unsigned int index_hay;
-	unsigned int index_need;
+	size_t		index_hay;
+	size_t		index_need;
 
 	index_hay = 0;
 	index_need = 0;
