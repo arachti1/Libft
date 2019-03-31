@@ -1,6 +1,6 @@
 NAME = libft.a
 
-FLAG = -Werror -Wextra -Wall
+FLAG = -Wall -Wextra -Werror
 
 SRC = ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c \
 	ft_isdigit.c \
