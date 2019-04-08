@@ -30,18 +30,17 @@ OBJ=$(SRC:.c=.o)
 all: $(NAME)
 
 $(NAME): $(SRC) $(INC)
-	$(CC) $(CFLAG) -c $(SRC)
+	@$(CC) $(CFLAG) -c $(SRC)
 	@ar rc $(NAME) $(OBJ)
 	@ranlib $(NAME)
-	@echo "\t${_GREEN}libft made${_END}"
+	@echo "\t${_BOLD}${_UNDER}${_GREEN}libft made${_END}"
 
 clean:
 	@rm -f $(OBJ)
-	@echo "\t${_YELLOW}libft clean${_END}"
+	@echo "\t${_BOLD}${_RED}libft clean${_END}"
 
 fclean: clean
 	@rm -f $(NAME)
-	@echo "\t${_RED}libft fclean${_END}"
+	@echo "\t${_UNDER}${_RED}libft fclean${_END}"
 
 re: fclean $(NAME)
-	
