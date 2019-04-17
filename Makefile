@@ -39,8 +39,8 @@ clean:
 	@rm -f $(OBJ)
 	@echo "\t${_BOLD}${_RED}libft clean${_END}"
 
-fclean: clean
-	@rm -f $(NAME)
+fclean: 
+	@rm -f $(NAME) $(OBJ)
 	@echo "\t${_UNDER}${_RED}libft fclean${_END}"
 
 re: fclean $(NAME)
