@@ -6,7 +6,7 @@
 /*   By: larachti <larachti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/28 01:39:13 by anonymous         #+#    #+#             */
-/*   Updated: 2019/04/04 19:41:05 by larachti         ###   ########.fr       */
+/*   Updated: 2019/05/01 02:24:20 by larachti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,7 @@ char			*ft_strcpy(char *dst, const char *src);
 char			*ft_strncpy(char *dst, const char *src, size_t len);
 char			*ft_strcat(char *s1, const char *s2);
 char			*ft_strncat(char *s1, const char *s2, size_t n);
+size_t			ft_strnchar(const char *s, const char c);
 size_t			ft_strlcat(char *dst, const char *src, size_t size);
 char			*ft_strchr(const char *s, int c);
 char			*ft_strrchr(const char *s, int c);
@@ -56,7 +57,6 @@ int				ft_isascii(int c);
 int				ft_isprint(int c);
 int				ft_toupper(int c);
 int				ft_tolower(int c);
-int				ft_strnchar(const char *s, const char c);
 
 void			*ft_memalloc(size_t size);
 void			ft_memdel(void **ap);

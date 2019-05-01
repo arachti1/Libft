@@ -6,7 +6,7 @@
 /*   By: larachti <larachti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/10 18:57:37 by larachti          #+#    #+#             */
-/*   Updated: 2017/11/16 09:59:30 by larachti         ###   ########.fr       */
+/*   Updated: 2019/05/01 02:22:39 by larachti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 size_t		ft_strlen(const char *str)
 {
-	int index;
+	size_t index;
 
 	index = 0;
 	while (str[index])

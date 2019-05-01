@@ -6,13 +6,13 @@
 /*   By: larachti <larachti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/04 14:37:34 by larachti          #+#    #+#             */
-/*   Updated: 2018/06/21 15:57:03 by larachti         ###   ########.fr       */
+/*   Updated: 2019/05/01 02:21:44 by larachti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int		ft_strnchar(const char *s, const char c)
+size_t		ft_strnchar(const char *s, const char c)
 {
 	size_t		i;
 
