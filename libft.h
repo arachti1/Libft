@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: larachti <larachti@student.42.fr>          +#+  +:+       +#+        */
+/*   By: anonymous <anonymous@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/28 01:39:13 by anonymous         #+#    #+#             */
-/*   Updated: 2019/05/01 02:24:20 by larachti         ###   ########.fr       */
+/*   Updated: 2019/07/13 21:48:41 by anonymous        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -97,5 +97,8 @@ size_t			ft_tablen(char **tab);
 
 char			*ft_strcut(char *s, size_t len);
 char			*ft_strndup(const char *s, size_t len);
+
+int				ft_pow(int base, int exp);
+int				ft_round(long double a);
 
 #endif

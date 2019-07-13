@@ -23,7 +23,8 @@ SRC =   ft_atoi.c       ft_memchr.c             ft_strchr.c     ft_strncmp.c   \
         ft_lstmap.c     ft_putstr.c             ft_strmap.c     ft_tolower.c   \
         ft_lstnew.c     ft_putstr_fd.c          ft_strmapi.c    ft_toupper.c   \
         ft_memalloc.c   ft_rgba_to_int.c        ft_strncat.c    get_next_line.c\
-        ft_memccpy.c    ft_strcat.c             ft_strnchar.c
+        ft_memccpy.c    ft_strcat.c             ft_strnchar.c   ft_pow.c       \
+        ft_round.c
 
 OBJ=$(SRC:.c=.o)
 
