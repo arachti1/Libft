@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anonymous <anonymous@student.42.fr>        +#+  +:+       +#+        */
+/*   By: larachti <larachti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/28 01:39:13 by anonymous         #+#    #+#             */
-/*   Updated: 2019/07/13 21:48:41 by anonymous        ###   ########.fr       */
+/*   Updated: 2019/07/30 20:15:57 by larachti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,8 @@ char			*ft_strcpy(char *dst, const char *src);
 char			*ft_strncpy(char *dst, const char *src, size_t len);
 char			*ft_strcat(char *s1, const char *s2);
 char			*ft_strncat(char *s1, const char *s2, size_t n);
+void			ft_strprep(char **str, char *prep);
+void			ft_strapp(char **str, char *app);
 size_t			ft_strnchar(const char *s, const char c);
 size_t			ft_strlcat(char *dst, const char *src, size_t size);
 char			*ft_strchr(const char *s, int c);
@@ -44,6 +46,7 @@ char			*ft_strrchr(const char *s, int c);
 char			*ft_strstr(const char *haystack, const char *needle);
 char			*ft_strnstr(const char *haystack, const char *needle,
 				size_t len);
+
 int				ft_rgba_to_int(unsigned char r, unsigned char g,
 				unsigned char b, unsigned char a);
 
@@ -74,7 +77,7 @@ char			*ft_strjoin(char const *s1, char const *s2);
 char			*ft_strtrim(char const *s);
 char			**ft_strsplit(char const *s, char c);
 char			*ft_itoa(int n);
-char			*ft_itoa_base(int value, int base);
+char			*ft_itoa_base(long value, int base);
 void			ft_putchar(char c);
 void			ft_putstr(char const *s);
 void			ft_putendl(char const *s);
