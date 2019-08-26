@@ -14,11 +14,11 @@ void get_value(char *str, long long value, int base, int *pos)
 	*pos += 1;
 }
 
-char	*ft_itoa_base(long long value, int base)
+char	*ft_itoa_base(long long int value, int base)
 {
 	char *result;
 	int i;
-	long long tmp;
+	long long int tmp;
 
 	i = 0;
 	result = (char*)malloc(sizeof(char) * (25));

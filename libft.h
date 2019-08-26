@@ -6,7 +6,7 @@
 /*   By: larachti <larachti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/28 01:39:13 by anonymous         #+#    #+#             */
-/*   Updated: 2019/07/30 20:15:57 by larachti         ###   ########.fr       */
+/*   Updated: 2019/08/05 17:38:09 by larachti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,10 +46,7 @@ char			*ft_strrchr(const char *s, int c);
 char			*ft_strstr(const char *haystack, const char *needle);
 char			*ft_strnstr(const char *haystack, const char *needle,
 				size_t len);
-
-int				ft_rgba_to_int(unsigned char r, unsigned char g,
-				unsigned char b, unsigned char a);
-
+char			*ft_strtolower(char *s);
 int				ft_strcmp(const char *s1, const char *s2);
 int				ft_strncmp(const char *s1, const char *s2, size_t n);
 int				ft_atoi(const char *str);
@@ -98,10 +95,13 @@ void			ft_print_word_table(char **table);
 void			ft_tabc_del(char **tabc);
 size_t			ft_tablen(char **tab);
 
+int				ft_rgba_to_int(unsigned char r, unsigned char g,
+				unsigned char b, unsigned char a);
+
 char			*ft_strcut(char *s, size_t len);
 char			*ft_strndup(const char *s, size_t len);
 
-int				ft_pow(int base, int exp);
-int				ft_round(long double a);
+long long unsigned int		ft_pow(unsigned int base, int exp);
+long long int				ft_round(long double a);
 
 #endif
