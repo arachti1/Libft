@@ -1,23 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strprep.c                                       :+:      :+:    :+:   */
+/*   ft_strtoupper.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: larachti <larachti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/07/30 13:18:29 by larachti          #+#    #+#             */
-/*   Updated: 2019/09/08 19:33:12 by larachti         ###   ########.fr       */
+/*   Created: 2019/08/30 23:43:54 by larachti          #+#    #+#             */
+/*   Updated: 2019/08/30 23:45:06 by larachti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void		ft_strprep(char **str, char *prep) {
-	char		*tmp;
+char		*ft_strtoupper(char *s) {
+	size_t		index;
 
-	tmp = ft_strnew(ft_strlen(*str) + ft_strlen(prep));
-	tmp = ft_strcat(tmp, prep);
-	tmp = ft_strcat(tmp, *str);
-	free(*str);
-	*str = tmp;
+	index = 0;
+	while (s[index]) {
+		s[index] = ft_toupper(s[index]);
+		index++;
+	}
+	return (s);
 }

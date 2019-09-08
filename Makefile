@@ -25,6 +25,7 @@ SRC =   ft_atoi.c		ft_memchr.c				ft_strchr.c		ft_strncmp.c   \
 		ft_memalloc.c	ft_rgba_to_int.c		ft_strncat.c	get_next_line.c\
 		ft_memccpy.c	ft_strcat.c				ft_strnchar.c	ft_pow.c       \
 		ft_round.c		ft_strprep.c			ft_strapp.c		ft_strtolower.c\
+		ft_strtoupper.c
 
 OBJ = $(SRC:.c=.o)
 
@@ -42,6 +43,8 @@ clean:
 
 fclean: 
 	@rm -f $(NAME) $(OBJ)
-	@echo "\t${_UNDER}${_RED}$(NAME) fclean${_END}"
+	@echo "\t${_UNDER}${_RED}$(NAME) full clean${_END}"
 
 re: fclean $(NAME)
+
+.PHONY: clean fclean re
