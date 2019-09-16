@@ -3,7 +3,7 @@ include ~/bash_colors.sh
 NAME = libft.a
 
 CC = gcc
-CFLAG = -Wall -Wextra -Werror -g
+CFLAG = -Wall -Wextra -Werror
 
 INC = get_next_line.h libft.h
 
@@ -25,14 +25,14 @@ SRC =   ft_atoi.c		ft_memchr.c				ft_strchr.c		ft_strncmp.c   \
 		ft_memalloc.c	ft_rgba_to_int.c		ft_strncat.c	get_next_line.c\
 		ft_memccpy.c	ft_strcat.c				ft_strnchar.c	ft_pow.c       \
 		ft_round.c		ft_strprep.c			ft_strapp.c		ft_strtolower.c\
-		ft_strtoupper.c
+		ft_strnapp.c	ft_strnprep.c			ft_strtoupper.c
 
 OBJ = $(SRC:.c=.o)
 
 all: $(NAME)
 
 $(NAME): $(SRC) $(INC)
-	@$(CC) $(CFLAG) -c $(SRC)
+	@$(CC) $(CFLAG) -c $(SRC) $(INC)
 	@ar rc $(NAME) $(OBJ)
 	@ranlib $(NAME)
 	@echo "\t${_BOLD}${_UNDER}${_GREEN}$(NAME) made${_END}"

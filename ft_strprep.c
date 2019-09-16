@@ -6,13 +6,14 @@
 /*   By: larachti <larachti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/30 13:18:29 by larachti          #+#    #+#             */
-/*   Updated: 2019/09/08 19:33:12 by larachti         ###   ########.fr       */
+/*   Updated: 2019/09/16 23:39:30 by larachti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void		ft_strprep(char **str, char *prep) {
+void		ft_strprep(char **str, char *prep)
+{
 	char		*tmp;
 
 	tmp = ft_strnew(ft_strlen(*str) + ft_strlen(prep));

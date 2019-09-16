@@ -1,24 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_round.c                                         :+:      :+:    :+:   */
+/*   ft_strnapp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: larachti <larachti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/07/13 21:44:05 by anonymous         #+#    #+#             */
-/*   Updated: 2019/09/16 21:09:09 by larachti         ###   ########.fr       */
+/*   Created: 2019/09/13 19:56:27 by larachti          #+#    #+#             */
+/*   Updated: 2019/09/16 21:02:33 by larachti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-long long int			ft_round(double a)
+size_t		ft_strnapp(char **str, char c, size_t len)
 {
-	long long int		sign;
+	char *app;
 
-	sign = (a >= 0) ? 1 : -1;
-	a *= sign;
-		if (a - (long long int)a >= 0.5)
-		a += 1;
-	return (sign * (long long int)a);
+	app = ft_strnew(len);
+	ft_memset(app, c, len);
+	ft_strapp(str, app);
+	free(app);
+	return (ft_strlen(*str));
 }

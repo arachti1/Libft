@@ -6,7 +6,7 @@
 /*   By: larachti <larachti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/28 01:39:13 by anonymous         #+#    #+#             */
-/*   Updated: 2019/09/08 19:34:01 by larachti         ###   ########.fr       */
+/*   Updated: 2019/09/16 23:45:09 by larachti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 # include <sys/types.h>
 # include <sys/uio.h>
 # include <fcntl.h>
+# include <string.h>
 # include "get_next_line.h"
 
 typedef struct	s_list
@@ -37,8 +38,10 @@ char			*ft_strcpy(char *dst, const char *src);
 char			*ft_strncpy(char *dst, const char *src, size_t len);
 char			*ft_strcat(char *s1, const char *s2);
 char			*ft_strncat(char *s1, const char *s2, size_t n);
-void			ft_strprep(char **str, char *prep);
 void			ft_strapp(char **str, char *app);
+size_t			ft_strnapp(char **str, char c, size_t len);
+void			ft_strprep(char **str, char *prep);
+size_t			ft_strnprep(char **str, char c, size_t len);
 size_t			ft_strnchar(const char *s, const char c);
 size_t			ft_strlcat(char *dst, const char *src, size_t size);
 char			*ft_strchr(const char *s, int c);
@@ -103,6 +106,6 @@ char			*ft_strcut(char *s, size_t len);
 char			*ft_strndup(const char *s, size_t len);
 
 long long unsigned int		ft_pow(unsigned int base, int exp);
-long long int				ft_round(long double a);
+long long int				ft_round(double a);
 
 #endif
