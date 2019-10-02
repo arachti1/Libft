@@ -1,14 +1,28 @@
-#include <stdlib.h>
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_itoa_base.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: larachti <larachti@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/10/02 17:51:11 by larachti          #+#    #+#             */
+/*   Updated: 2019/10/02 17:52:56 by larachti         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "libft.h"
 
 char	get_char(long long value, int base)
 {
-	char *str = "0123456789ABCDEF";
-	return str[value % base];
+	char	*str;
+
+	str = "0123456789ABCDEF";
+	return (str[value % base]);
 }
 
-void get_value(char *str, long long value, int base, int *pos)
+void	get_value(char *str, long long value, int base, int *pos)
 {
-	if(value >= base)
+	if (value >= base)
 		get_value(str, value / base, base, pos);
 	str[*pos] = get_char(value, base);
 	*pos += 1;
@@ -16,16 +30,16 @@ void get_value(char *str, long long value, int base, int *pos)
 
 char	*ft_itoa_base(long long int value, int base)
 {
-	char *result;
-	int i;
-	long long int tmp;
+	char			*result;
+	int				i;
+	long long int	tmp;
 
 	i = 0;
 	result = (char*)malloc(sizeof(char) * (25));
 	while (i < 25)
 		result[i++] = 0;
 	if (base < 2 || base > 16)
-		return NULL;
+		return (NULL);
 	if (value < 0 && base == 10)
 	{
 		result[0] = '-';
@@ -39,5 +53,5 @@ char	*ft_itoa_base(long long int value, int base)
 		tmp = value;
 	}
 	get_value(result, tmp, base, &i);
-	return (result);	
+	return (result);
 }
