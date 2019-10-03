@@ -6,7 +6,7 @@
 /*   By: larachti <larachti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/28 01:39:13 by anonymous         #+#    #+#             */
-/*   Updated: 2019/10/02 17:57:38 by larachti         ###   ########.fr       */
+/*   Updated: 2019/10/03 15:50:01 by larachti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <sys/uio.h>
 # include <fcntl.h>
 # include <string.h>
+# include <wchar.h>
 # include "get_next_line.h"
 
 typedef struct			s_list
@@ -81,7 +82,7 @@ char					*ft_strjoin(char const *s1, char const *s2);
 char					*ft_strtrim(char const *s);
 char					**ft_strsplit(char const *s, char c);
 char					*ft_itoa(int n);
-char					*ft_itoa_base(long value, int base);
+char					*ft_itoa_base(long long value, int base);
 void					ft_putchar(char c);
 void					ft_putstr(char const *s);
 void					ft_putendl(char const *s);
@@ -111,5 +112,8 @@ char					*ft_strndup(const char *s, size_t len);
 
 long long unsigned int	ft_pow(unsigned int base, int exp);
 long long int			ft_round(double a);
+
+void					ft_putwstr(wint_t *wstr);
+void					ft_putwchar(wint_t wc);
 
 #endif
