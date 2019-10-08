@@ -1,13 +1,11 @@
-#include ~/bash_colors.sh
+include ~/bash_colors.sh
 
 NAME = libft.a
 
 CC = gcc
 CFLAG = -Wall -Wextra -Werror
 
-INC = get_next_line.h libft.h
-
-SRC =   	ft_atoi.c					\
+SRCS =   	ft_atoi.c					\
 			ft_bzero.c					\
 			ft_isalnum.c				\
 			ft_isalpha.c				\
@@ -85,22 +83,36 @@ SRC =   	ft_atoi.c					\
 			ft_toupper.c				\
 			get_next_line.c				
 
-OBJ = $(SRC:.c=.o)
+INCS = get_next_line.h libft.h
+
+SRC_DIR = src/
+OBJ_DIR = obj/
+INC_DIR = inc/
+
+SRC = $(addprefix $(SRC_DIR), $(SRCS))
+OBJ = $(addprefix $(OBJ_DIR), $(SRCS:.c=.o))
+INC = $(addprefix $(INC_DIR), $(INCS))
+
 
 all: $(NAME)
 
-$(NAME): $(SRC) $(INC)
-	@$(CC) $(CFLAG) -c $(SRC) $(INC)
+$(NAME): $(OBJ) $(INC)
 	@ar rc $(NAME) $(OBJ)
 	@ranlib $(NAME)
 	@echo "\t${_BOLD}${_UNDER}${_GREEN}$(NAME) made${_END}"
+
+$(OBJ_DIR)%.o: $(SRC_DIR)%.c $(INC) $(LIB) | obj
+	@$(CC) $(CFLAGS) -I $(INC_DIR) -o $@ -c $<
+
+obj:
+	@mkdir obj
 
 clean:
 	@rm -f $(OBJ)
 	@echo "\t${_BOLD}${_RED}$(NAME) clean${_END}"
 
 fclean: 
-	@rm -f $(NAME) $(OBJ)
+	@rm -rf $(NAME) $(OBJ_DIR)
 	@echo "\t${_UNDER}${_RED}$(NAME) full clean${_END}"
 
 re: fclean $(NAME)
