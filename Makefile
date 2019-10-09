@@ -96,12 +96,12 @@ INC = $(addprefix $(INC_DIR), $(INCS))
 
 all: $(NAME)
 
-$(NAME): $(OBJ) $(INC)
+$(NAME): $(OBJ) $(INC) Makefile
 	@ar rc $(NAME) $(OBJ)
 	@ranlib $(NAME)
 	@echo "\t${_BOLD}${_UNDER}${_GREEN}$(NAME) made${_END}"
 
-$(OBJ_DIR)%.o: $(SRC_DIR)%.c $(INC) $(LIB) | obj
+$(OBJ_DIR)%.o: $(SRC_DIR)%.c $(INC) | obj
 	@$(CC) $(CFLAGS) -I $(INC_DIR) -o $@ -c $<
 
 obj:
