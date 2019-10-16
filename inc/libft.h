@@ -6,7 +6,7 @@
 /*   By: larachti <larachti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/28 01:39:13 by anonymous         #+#    #+#             */
-/*   Updated: 2019/10/03 15:50:01 by larachti         ###   ########.fr       */
+/*   Updated: 2019/10/16 16:17:33 by larachti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -111,7 +111,7 @@ char					*ft_strcut(char *s, size_t len);
 char					*ft_strndup(const char *s, size_t len);
 
 long long unsigned int	ft_pow(unsigned int base, int exp);
-long long int			ft_round(double a);
+long long int			ft_round(long double a);
 
 void					ft_putwstr(wint_t *wstr);
 void					ft_putwchar(wint_t wc);

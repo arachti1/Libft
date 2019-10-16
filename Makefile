@@ -1,4 +1,4 @@
-include ~/bash_colors.sh
+#include ~/bash_colors.sh
 
 NAME = libft.a
 

@@ -6,13 +6,13 @@
 /*   By: larachti <larachti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/13 21:44:05 by anonymous         #+#    #+#             */
-/*   Updated: 2019/10/02 17:53:40 by larachti         ###   ########.fr       */
+/*   Updated: 2019/10/16 16:17:43 by larachti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-long long int			ft_round(double a)
+long long int			ft_round(long double a)
 {
 	long long int		sign;
 
