@@ -6,7 +6,7 @@
 /*   By: larachti <larachti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/28 01:39:13 by anonymous         #+#    #+#             */
-/*   Updated: 2019/10/16 16:17:33 by larachti         ###   ########.fr       */
+/*   Updated: 2019/10/30 12:36:29 by larachti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,13 @@
 # include <wchar.h>
 # include "get_next_line.h"
 
+#define		HEX_CHAR		"0123456789ABCDEF";
+
 typedef struct			s_list
 {
 	void			*content;
 	size_t			content_size;
-	struct s_list	*next;
+	struct s_list	*next;-
 }						t_list;
 
 void					*ft_memset(void *b, int c, size_t len);
@@ -82,7 +84,8 @@ char					*ft_strjoin(char const *s1, char const *s2);
 char					*ft_strtrim(char const *s);
 char					**ft_strsplit(char const *s, char c);
 char					*ft_itoa(int n);
-char					*ft_itoa_base(long long value, int base);
+char					*ft_itoa_base(long long int value, int base);
+char					*ft_utoa_base(long long unsigned int value, int base);
 void					ft_putchar(char c);
 void					ft_putstr(char const *s);
 void					ft_putendl(char const *s);
