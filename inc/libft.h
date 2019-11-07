@@ -6,7 +6,7 @@
 /*   By: larachti <larachti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/28 01:39:13 by anonymous         #+#    #+#             */
-/*   Updated: 2019/10/30 12:36:29 by larachti         ###   ########.fr       */
+/*   Updated: 2019/11/07 15:33:03 by larachti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ typedef struct			s_list
 {
 	void			*content;
 	size_t			content_size;
-	struct s_list	*next;-
+	struct s_list	*next;
 }						t_list;
 
 void					*ft_memset(void *b, int c, size_t len);
