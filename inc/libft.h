@@ -6,7 +6,7 @@
 /*   By: larachti <larachti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/28 01:39:13 by anonymous         #+#    #+#             */
-/*   Updated: 2019/11/07 15:33:03 by larachti         ###   ########.fr       */
+/*   Updated: 2019/11/29 19:05:53 by larachti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,12 @@ typedef struct			s_list
 	size_t			content_size;
 	struct s_list	*next;
 }						t_list;
+
+typedef struct 			s_itab
+{
+	int				*t;
+	int				size;
+}						t_itab;
 
 void					*ft_memset(void *b, int c, size_t len);
 void					ft_bzero(void *s, size_t n);
@@ -118,5 +124,8 @@ long long int			ft_round(long double a);
 
 void					ft_putwstr(wint_t *wstr);
 void					ft_putwchar(wint_t wc);
+
+t_itab					*ft_itabnew(int size);
+t_itab					*ft_itabdup(t_itab *ta);
 
 #endif
