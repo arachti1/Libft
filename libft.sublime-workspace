@@ -1,0 +1,739 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"get_char"
+			],
+			[
+				"s",
+				"sign"
+			],
+			[
+				"f",
+				"file_exclude_patterns"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"in",
+				"inc\t#include <…>"
+			],
+			[
+				"L",
+				"LIB"
+			],
+			[
+				"INC",
+				"INC_DIR"
+			],
+			[
+				"ft_s",
+				"ft_sort"
+			],
+			[
+				"ft_print",
+				"ft_printf\tft_printf"
+			],
+			[
+				"tim",
+				"tim2"
+			],
+			[
+				"ft_stac",
+				"ft_stack_destroy"
+			],
+			[
+				"st",
+				"stack"
+			],
+			[
+				"ft_sta",
+				"ft_stack_destroy"
+			],
+			[
+				"t",
+				"t_stack"
+			],
+			[
+				"pri",
+				"ft_stack_print"
+			],
+			[
+				"stac",
+				"stack"
+			],
+			[
+				"sta",
+				"stack"
+			],
+			[
+				"ft",
+				"ft_printf\tuser_snippets"
+			],
+			[
+				"ft_rev",
+				"ft_reverse_rotate"
+			],
+			[
+				"c",
+				"core"
+			],
+			[
+				"spe",
+				"specs"
+			],
+			[
+				"l",
+				"LIB"
+			],
+			[
+				"i",
+				"int"
+			],
+			[
+				"ft_",
+				"ft_flags"
+			],
+			[
+				"o",
+				"OBJ_DIR"
+			],
+			[
+				"S",
+				"SRC_DIR"
+			],
+			[
+				"OB",
+				"OBJ_DIR"
+			],
+			[
+				"li",
+				"libftprintf"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"jp",
+				"jpg"
+			],
+			[
+				"fo",
+				"for\tfor …"
+			],
+			[
+				"I",
+				"IFLAGS"
+			],
+			[
+				"FM_",
+				"FM_PLUS"
+			],
+			[
+				"v",
+				"va_arg"
+			],
+			[
+				"C",
+				"CFLAGS"
+			],
+			[
+				"E",
+				"EXEC1"
+			],
+			[
+				"ma",
+				"make"
+			],
+			[
+				"b",
+				"buf"
+			],
+			[
+				"sp",
+				"specs"
+			],
+			[
+				"bu",
+				"bufferize"
+			],
+			[
+				"p",
+				"printedchar"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"a",
+				"args"
+			],
+			[
+				"ar",
+				"arg"
+			],
+			[
+				"arg",
+				"args"
+			],
+			[
+				"pr",
+				"printf\tprintf …"
+			],
+			[
+				"df",
+				"define"
+			],
+			[
+				"inc",
+				"inc\t#include \"…\""
+			],
+			[
+				"str",
+				"struct\tstruct"
+			],
+			[
+				"X",
+				"X_AXIS"
+			],
+			[
+				"x",
+				"xbutton"
+			],
+			[
+				"xen",
+				"xenv-"
+			],
+			[
+				"board",
+				"board_init"
+			],
+			[
+				"std",
+				"stdio.h\tstandard header"
+			],
+			[
+				"gr",
+				"gr_draw_char"
+			],
+			[
+				"gr_",
+				"gr_moveto"
+			],
+			[
+				"LS",
+				"LS_COLORS"
+			],
+			[
+				"im",
+				"img"
+			],
+			[
+				"font-s",
+				"font-style\tproperty"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"margi",
+				"margin-left\tproperty"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"background-c",
+				"background-color\tproperty"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"m",
+				"margin\tproperty"
+			],
+			[
+				"P",
+				"print_tab"
+			],
+			[
+				"def",
+				"define"
+			],
+			[
+				"re",
+				"refresh"
+			],
+			[
+				"n",
+				"neighbour"
+			],
+			[
+				"si",
+				"size_t"
+			],
+			[
+				"size",
+				"size_t"
+			],
+			[
+				"g",
+				"game_of_life"
+			],
+			[
+				"conten",
+				"content_size"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "libft.sublime-project",
+			"settings":
+			{
+				"buffer_size": 209,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 137.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"42",
+				"42 headers: settings"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: CDATA"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"add",
+				"Git: Add Current File"
+			],
+			[
+				"diff",
+				"FileDiffs: Menu"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"echo \"20\"",
+			"echo 20",
+			"100 + 20",
+			"10",
+			"42",
+			"a",
+			"w",
+			"pwd",
+			"l",
+			"cd ",
+			"make",
+			"ls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/42_Projects/Finished/Libft/inc"
+	],
+	"file_history":
+	[
+		"/D/42_Projects/Current/ft_printf/Libft/src/ft_itoa_base.c",
+		"/D/42_Projects/Current/ft_printf/results.txt",
+		"/D/42_Projects/Current/ft_printf/ok.txt",
+		"/D/42_Projects/Current/ft_printf/test.c",
+		"/C/Users/ASUS ROG/Downloads/trace.txt",
+		"/C/Users/ASUS ROG/AppData/Roaming/Sublime Text 3/Packages/42 Headers/settings.py",
+		"/C/Users/ASUS ROG/AppData/Roaming/Sublime Text 3/Packages/User/user_snippets.sublime-settings",
+		"/C/Users/ASUS ROG/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/ASUS ROG/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/ASUS ROG/AppData/Roaming/Sublime Text 3/Packages/ClangAutoComplete/ClangAutoComplete.py",
+		"/C/Users/ASUS ROG/AppData/Roaming/Sublime Text 3/Packages/42 Headers/Default.sublime-commands",
+		"/C/Users/ASUS ROG/AppData/Roaming/Sublime Text 3/Packages/42 Headers/Default (Windows).sublime-keymap",
+		"/C/Users/ASUS ROG/AppData/Roaming/Sublime Text 3/Packages/User/42-headers.sublime-settings",
+		"/D/42_Projects/Current/ft_printf/pft/src/unit_tests_indexed.c",
+		"/D/42_Projects/Current/ft_printf/src/ft_type_f.c",
+		"/D/42_Projects/Current/ft_printf/Libft/inc/libft.h",
+		"/D/42_Projects/Current/ft_printf/Libft/src/ft_utoa_base.c",
+		"/D/42_Projects/Current/ft_printf/Libft/Makefile",
+		"/D/42_Projects/Current/ft_printf/ft_printf.sublime-project",
+		"/D/42_Projects/Current/ft_printf/ft_printf.sublime-workspace",
+		"/D/SteamLibrary/steamapps/common/Star Wars Empire at War/GameData/Data/config.meg",
+		"/D/42_Projects/Current/42-push_swap/libft/include/ft_array.h",
+		"/D/42_Projects/Current/42-push_swap/libft/src/ft_array/fta_string.c",
+		"/D/42_Projects/Current/42-push_swap/libft/include/get_next_line.h",
+		"/D/42_Projects/Current/ft_printf/all.txt",
+		"/D/42_Projects/Tools/fappeningbook.com/x/0.jpg",
+		"/D/42_Projects/Tools/Nouveau dossier/photo.php",
+		"/C/Users/ASUS ROG/AppData/Roaming/Sublime Text 3/Packages/C99/messages/install.txt",
+		"/D/42_Projects/Perso/Grav/grav.c",
+		"/D/42_Projects/Perso/libftx/inc/libftx.h",
+		"/D/42_Projects/Perso/libftx/src/ftx_init.c",
+		"/D/42_Projects/Perso/libftx/Makefile",
+		"/D/42_Projects/Perso/libftx/libftx.h",
+		"/D/42_Projects/Current/pushswap/check_args.c",
+		"/D/42_Projects/Perso/GoL/Makefile",
+		"/D/42_Projects/Perso/GoL/game_of_life.h",
+		"/D/42_Projects/Perso/GoL/game_of_life.c",
+		"/C/Users/ASUS ROG/AppData/Local/Google/Chrome/User Data/PepperFlash/32.0.0.255/_metadata/verified_contents.json",
+		"/C/Users/ASUS ROG/AppData/Local/Google/Chrome/User Data/Profile 1/Accounts/Avatar Images/101977674380832228781",
+		"/C/Users/ASUS ROG/AppData/Local/Google/Chrome/User Data/PepperFlash/32.0.0.255/manifest.json",
+		"/D/42_Projects/Current/pushswap/commands.c",
+		"/D/42_Projects/Current/pushswap/ft_printf/libft/get_next_line.c",
+		"/C/Users/ASUS ROG/AppData/Local/Temp/Butter/53baf9d38ec0843cbf20d23eafde3b695c5eefa1/The.Boys.S01E07.480p.x264-mSD[eztv].srt",
+		"/C/Users/ASUS ROG/AppData/Local/Temp/Butter/53baf9d38ec0843cbf20d23eafde3b695c5eefa1/The.Boys.S01E07.480p.x264-mSD[eztv].vtt",
+		"/C/Users/ASUS ROG/AppData/Local/Temp/Butter/8d42f2516de5732df4342502b5f9594db2855065/the.boys.s01e07.720p.web.x264-skgtv[eztv].srt",
+		"/D/42_Projects/Current/pushswap/cmds",
+		"/D/42_Projects/Tools/photo.php",
+		"/D/42_Projects/Finished/Piscine_PHP/D02/ex04/photo.php",
+		"/D/42_Projects/Finished/Piscine_PHP/D01/ex12/search_it!.php",
+		"/D/42_Projects/Current/pushswap/ft_reverse_rotate.c",
+		"/D/42_Projects/Current/pushswap/ft_rotate.c",
+		"/D/42_Projects/Current/pushswap/ft_printf/libft/ft_strdel.c",
+		"/D/42_Projects/Current/pushswap/ft_printf/libft/get_next_line.h",
+		"/D/42_Projects/Current/pushswap/push_swap.h",
+		"/D/42_Projects/Current/pushswap/ft_swap.c",
+		"/D/42_Projects/Current/pushswap/ft_push.c",
+		"/D/42_Projects/Current/pushswap/checker",
+		"/D/42_Projects/Current/pushswap/push_swap.c",
+		"/D/42_Projects/Current/pushswap/ft_printf/libft/ft_strcmp.c",
+		"/C/Users/ASUS ROG/AppData/Roaming/Sublime Text 3/Packages/User/get_next_line.sublime-snippet",
+		"/D/42_Projects/Current/pushswap/push_swap",
+		"/D/42_Projects/Current/pushswap/.gitignore",
+		"/C/Users/ASUS ROG/AppData/Roaming/Sublime Text 3/Packages/User/while.sublime-snippet",
+		"/C/Users/ASUS ROG/AppData/Roaming/Sublime Text 3/Packages/User/while.sublime-settings",
+		"/C/Users/ASUS ROG/AppData/Roaming/Sublime Text 3/Packages/User/ft_printf.sublime-snippet",
+		"/D/42_Projects/Current/pushswap/ft_printf/src/ft_type_c.c",
+		"/D/42_Projects/Current/pushswap/ft_printf/inc/ft_printf.h",
+		"/D/42_Projects/Current/pushswap/checker.c",
+		"/D/42_Projects/Current/pushswap/ft_stack.c",
+		"/D/42_Projects/Current/ft_printf/pft/unit_tests.c",
+		"/D/42_Projects/Current/ft_printf/pft/configurations/42fc/unit_tests.42fc.c",
+		"/D/42_Projects/Current/ft_printf/pft/options-config.ini",
+		"/D/42_Projects/Current/ft_printf/Libft/ft_memset.c",
+		"/D/42_Projects/Current/ft_printf/Libft/ft_round.c",
+		"/C/Users/ASUS ROG/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/larachti/.zsh_history",
+		"/D/42_Projects/Current/ft_printf/Libft/ft_putchar.c",
+		"/D/42_Projects/Current/ft_printf/todo.cpp",
+		"/D/42_Projects/Current/ft_printf/inc/ft_printf.h",
+		"/D/42_Projects/Current/ft_printf/src/ft_flags.c",
+		"/D/42_Projects/Current/ft_printf/Libft/ft_strtolower.c",
+		"/D/42_Projects/Current/ft_printf/src/ft_lenght.c",
+		"/D/42_Projects/Current/ft_printf/Libft/ft_strprep.c",
+		"/D/42_Projects/Current/ft_printf/Libft/ft_strapp.c",
+		"/D/42_Projects/Current/ft_printf/src/ft_type_c.c",
+		"/D/42_Projects/Current/ft_printf/src/ft_precision.c",
+		"/D/42_Projects/Current/ft_printf/src/ft_type_o.c",
+		"/D/42_Projects/Current/ft_printf/src/ft_type_p.c",
+		"/D/42_Projects/Current/ft_printf/Libft/ft_pow.c",
+		"/D/42_Projects/Current/ft_printf/src/ft_type_percent.c",
+		"/D/42_Projects/Current/ft_printf/src/ft_type_s.c",
+		"/D/42_Projects/Current/ft_printf/src/ft_type_u.c",
+		"/D/42_Projects/Current/ft_printf/src/ft_type_x.c",
+		"/D/42_Projects/Current/ft_printf/src/ft_width.c",
+		"/D/42_Projects/Current/ft_printf/src/ft_type.c",
+		"/D/42_Projects/Current/ft_printf/src/ft_printf.c",
+		"/D/42_Projects/Current/ft_printf/Libft/get_next_line.c",
+		"/D/42_Projects/Current/ft_printf/Libft/get_next_line.h.gch",
+		"/D/42_Projects/Finished/Piscine_PHP/D03/ex05/read_img.php",
+		"/D/42_Projects/Current/ft_printf/Libft/libft.h",
+		"/D/42_Projects/Current/ft_printf/.gitmodules",
+		"/D/42_Projects/Current/ft_printf/ft_printf.h",
+		"/D/42_Projects/Current/ft_printf/ft_flags.c",
+		"/D/42_Projects/Current/ft_printf/ft_type_f.c",
+		"/D/42_Projects/Current/ft_printf/Libft/ft_strndup.c",
+		"/D/42_Projects/Current/ft_printf/print_args.c",
+		"/D/42_Projects/Current/ft_printf/ft_type_s.c",
+		"/D/42_Projects/Current/ft_printf/ft_type_i.c",
+		"/D/42_Projects/Current/ft_printf/ft_parser.c",
+		"/D/42_Projects/Current/ft_printf/ft_printf.c",
+		"/D/42_Projects/Current/ft_printf/ft_precision.c",
+		"/D/42_Projects/Current/ft_printf/ft_type_percent.c",
+		"/D/42_Projects/Current/ft_printf/Libft/ft_strlen.c",
+		"/D/42_Projects/Current/ft_printf/Libft/ft_itoa_base.c",
+		"/D/42_Projects/Current/ft_printf/ft_width.c",
+		"/D/42_Projects/Current/ft_printf/ft_type_p.c",
+		"/D/42_Projects/Current/ft_printf/Libft/ft_strtoupper.c",
+		"/D/42_Projects/Current/ft_printf/ft_type_x.c",
+		"/D/42_Projects/Current/ft_printf/.gitignore",
+		"/D/42_Projects/Current/42_printf_unit_tests/framework/Makefile",
+		"/D/42_Projects/Current/42_printf_unit_tests/tests/Makefile",
+		"/D/42_Projects/Current/curqui_test/basics/a01_test_01.c",
+		"/D/42_Projects/Current/ft_printf/ft_type_u.c",
+		"/D/42_Projects/Current/ft_printf/ft_type_o.c",
+		"/D/42_Projects/Current/ft_printf/ft_type_c.c",
+		"/D/42_Projects/Current/pushswap/ft_printf/Makefile",
+		"/D/42_Projects/Finished/Fillit/Makefile",
+		"/D/42_Projects/Finished/FdF/Makefile",
+		"/D/42_Projects/Finished/Fractol/Libft/Makefile"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 184.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "libft.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								152,
+								152
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 64.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 90.0
+	},
+	"output.find_results":
+	{
+		"height": 103.0
+	},
+	"output.git":
+	{
+		"height": 102.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 102.0
+	},
+	"pinned_build_system": "",
+	"project": "libft.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\42_Projects\\Current\\ft_printf\\ft_printf.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 197.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
