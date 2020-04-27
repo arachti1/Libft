@@ -101,4 +101,6 @@ char			*ft_strndup(const char *s, size_t len);
 int				ft_pow(int base, int exp);
 int				ft_round(long double a);
 
+int				ft_max(int a, int b);
+int				ft_min(int a, int b);
 #endif

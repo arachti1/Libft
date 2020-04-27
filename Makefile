@@ -24,7 +24,7 @@ SRC =   ft_atoi.c       ft_memchr.c             ft_strchr.c     ft_strncmp.c   \
         ft_lstnew.c     ft_putstr_fd.c          ft_strmapi.c    ft_toupper.c   \
         ft_memalloc.c   ft_rgba_to_int.c        ft_strncat.c    get_next_line.c\
         ft_memccpy.c    ft_strcat.c             ft_strnchar.c   ft_pow.c       \
-        ft_round.c
+        ft_round.c      ft_max.c                ft_min.c
 
 OBJ=$(SRC:.c=.o)
 
@@ -33,7 +33,7 @@ all: $(NAME)
 $(NAME): $(SRC) $(INC)
 	@$(CC) $(CFLAG) -c $(SRC)
 	@ar rc $(NAME) $(OBJ)
-	@ranlib $(NAME)
+        @ranlib $(NAME)
 	@echo "\t${_BOLD}${_UNDER}${_GREEN}libft made${_END}"
 
 clean:
