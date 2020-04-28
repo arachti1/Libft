@@ -6,12 +6,12 @@
 /*   By: larachti <larachti@42students.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/27 21:11:02 by larachti          #+#    #+#             */
-/*   Updated: 2020/04/27 21:12:36 by larachti         ###   ########.fr       */
+/*   Updated: 2020/04/28 02:33:27 by larachti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 int     ft_min(int a, int b) {
-    return ((a > b) ? a : b);
+    return ((a < b) ? a : b);
 }
